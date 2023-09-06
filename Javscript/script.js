@@ -43,3 +43,7 @@ console.log(typeof "femke");
 
 javascriptIsFun = "Yes!";
 console.log(typeof javascriptIsFun);
+
+let year;
+console.log(year);
+console.log(typeof year);
