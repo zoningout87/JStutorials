@@ -25,7 +25,7 @@ console.log (myFirstJob);
 assign their values according to your own country (population in millions)
 2. Log their values to the console*/
 
-let country = "The Netherlands";
+/*let country = "The Netherlands";
 let continent = "Europe";
 let population = 20;
 
@@ -60,9 +60,39 @@ country. The variable should hold a Boolean value. Also declare a variable
 to the console*/
 
 
-let isIsland = false;
-let language;
-console.log(typeof isIsland);
+/*let isIsland = false;*/
+
+/*console.log(typeof isIsland);
 console.log(typeof population);
 console.log(typeof country);
-console.log(typeof language);
+console.log(typeof language);*/
+
+
+/*let age = 30;
+age = 31;
+
+const birthYear = 1991;
+//birthYear = 1990;
+
+const job;*/
+
+
+/*LECTURE: let, const and var
+1. Set the value of 'language' to the language spoken where you live (some
+countries have multiple languages, but just choose one)
+2. Think about which variables should be const variables (which values will never
+change, and which might change?). Then, change these variables to const.
+3. Try to change one of the changed variables now, and observe what happens*/
+
+
+/*const language= "dutch";
+const country = "The Netherlands";
+const continent = "Europe";
+let population = 20;
+const isIsland = false;
+
+
+country = "Gernmany"; */
+
+//script.js:95 Uncaught TypeError: Assignment to constant variable. at script.js:95:9
+
