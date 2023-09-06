@@ -1,4 +1,4 @@
-let js = "amazing";
+/*let js = "amazing";
 console.log (40 + 8 + 23 -10);
 
 
@@ -25,10 +25,16 @@ console.log (myFirstJob);
 assign their values according to your own country (population in millions)
 2. Log their values to the console*/
 
-let country = "The Netherlands";
+/*let country = "The Netherlands";
 let continent = "Europe";
 let population = "20 million";
 
 console.log (country);
 console.log (continent);
-console.log (population);
+console.log (population);*/
+
+let javascriptIsFun = true;
+console.log(javascriptIsFun);
+
+
+
