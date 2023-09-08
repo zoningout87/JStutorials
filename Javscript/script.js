@@ -157,7 +157,7 @@ GOOD LUCK � */
 /* Write your code below. Good luck! 🙂 */
 
 
-const massJohn = 92;
+/*const massJohn = 92;
 const heightJohn = 1.95;
 const massMark = 78;
 const heightMark = 1.69;
@@ -170,4 +170,29 @@ const markHigherbmi = bmiMark > bmiJohn;
 console.log (bmiMark, bmiJohn)
 console.log (markHigherbmi);
 
-//Boolean variabel > greater than sign 
+//Boolean variabel > greater than sign */
+
+
+const firstName = 'Femke';
+const job = 'teacher';
+const birthYear = '1991';
+const year = 2037;
+
+const femke = "I'm " + firstName + ', a ' +  
+(year - birthYear) + " year old " +  job + "!";
+console.log (femke);
+
+const femkeNew = `I'm ${firstName}, a ${year - birthYear} year old ${job}! `;
+console.log (femkeNew);
+
+console.log(`Just a regular string...`)
+
+console.log ('String with \n\
+multiple \n\
+lines');
+
+console.log (`string
+with
+multiple
+lines
+`);
