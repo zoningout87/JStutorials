@@ -121,3 +121,15 @@ x ++; //x = x + 1 = 101
 x --; //x = x - 1 = 100
 
 console.log (x);
+
+
+//Comparioson operators
+console.log (ageFemke > ageSarah);
+console.log (ageSarah >= 18);
+
+const isFullAge = ageSarah >= 18;
+
+console.log (now - 1991 > now - 2018);
+
+const averageAge= (ageFemke + ageSarah) / 2
+console.log (ageFemke, ageSarah, averageAge );
