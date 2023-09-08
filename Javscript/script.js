@@ -98,7 +98,7 @@ country = "Gernmany"; */
 
 
 
-const now = 2037;
+const now = now;
 const ageFemke = now - 1991;
 const ageSarah = now - 2018;
 console.log (ageFemke, ageSarah);
