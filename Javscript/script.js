@@ -97,7 +97,7 @@ country = "Gernmany"; */
 //script.js:95 Uncaught TypeError: Assignment to constant variable. at script.js:95:9
 
 
-
+// Math operators 
 const now = 2037;
 const ageFemke = now - 1991;
 const ageSarah = now - 2018;
@@ -111,3 +111,13 @@ const firstName = 'Femke';
 const lastName ='van Overveld';
 
 console.log(firstName + ' ' + lastName);
+
+// Assigment operators
+
+let x = 10 + 5;
+x += 10; // x = x + 10 = 25
+x *= 4; // x = x * 4  = 100 
+x ++; //x = x + 1 = 101
+x --; //x = x - 1 = 100
+
+console.log (x);
