@@ -97,7 +97,7 @@ country = "Gernmany"; */
 //script.js:95 Uncaught TypeError: Assignment to constant variable. at script.js:95:9
 
 
-// Math operators 
+/*// Math operators 
 const now = 2037;
 const ageFemke = now - 1991;
 const ageSarah = now - 2018;
@@ -132,4 +132,42 @@ const isFullAge = ageSarah >= 18;
 console.log (now - 1991 > now - 2018);
 
 const averageAge= (ageFemke + ageSarah) / 2
-console.log (ageFemke, ageSarah, averageAge );
+console.log (ageFemke, ageSarah, averageAge );*/
+
+/*JavaScript Fundamentals – Part 1
+Coding Challenge #1
+Mark and John are trying to compare their BMI (Body Mass Index), which is
+calculated using the formula:
+BMI = mass / height ** 2 = mass / (height * height) (mass in kg
+and height in meter).
+Your tasks:
+1. Store Mark's and John's mass and height in variables
+2. Calculate both their BMIs using the formula (you can even implement both
+versions)
+3. Create a Boolean variable 'markHigherBMI' containing information about
+whether Mark has a higher BMI than John.
+Test data:
+§ Data 1: Marks weights 78 kg and is 1.69 m tall. John weights 92 kg and is 1.95
+m tall.
+§ Data 2: Marks weights 95 kg and is 1.88 m tall. John weights 85 kg and is 1.76
+m tall.
+GOOD LUCK � */
+
+
+/* Write your code below. Good luck! 🙂 */
+
+
+const massJohn = 92;
+const heightJohn = 1.95;
+const massMark = 78;
+const heightMark = 1.69;
+console.log (massJohn, heightJohn, massMark, heightMark);
+
+
+const bmiMark = massMark / (heightMark * heightMark);
+const bmiJohn = massJohn / (heightJohn * heightJohn);
+const markHigherbmi = bmiMark > bmiJohn;
+console.log (bmiMark, bmiJohn)
+console.log (markHigherbmi);
+
+//Boolean variabel > greater than sign 
