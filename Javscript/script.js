@@ -102,3 +102,12 @@ const now = 2037;
 const ageFemke = now - 1991;
 const ageSarah = now - 2018;
 console.log (ageFemke, ageSarah);
+
+console.log (ageFemke * 2, ageFemke / 10, 2 ** 3);
+// 2 ** 3 means 2 to the power of 3 = 2 * 2 * * 2
+
+
+const firstName = 'Femke';
+const lastName ='van Overveld';
+
+console.log(firstName + ' ' + lastName);
